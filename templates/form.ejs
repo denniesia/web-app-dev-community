@@ -1,0 +1,42 @@
+<!-- index.html (form page inside 'form_folder') -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <section class="form">
+        <div class="wrapper"></div>
+        <form action="/submit" method="POST">
+            <h2>Sign In</h2>
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+
+            <div class="remember">
+                <label> 
+                    <input class="checkbox" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="forgot">
+                <a class="forgot-link" href="#">Forgot password?</a>
+            </div>
+
+            <div class="btn-submit">
+                <button type="submit" class="btn">Login</button>
+            </div>
+
+            <div class="register-link">
+                <p>Don't have an account?</p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
