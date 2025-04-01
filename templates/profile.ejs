@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/profile.css">
+</head>
+<body>
+    <header>
+        
+            <a onclick="window.location.href='/templates/start-page.ejs';"><p class="logo-para">☠ DEV-CULT</p></a>
+        
+    <nav>
+        <ul>
+            <li class="nav-item">
+                <img src="users.png">
+                <a class="nav-link" href="#">Chapters</a>
+            </li>
+            <li class="nav-item">
+                <img src="calender.png" >
+                <a class="nav-link" href="#">Events</a>
+            </li> 
+            <li class="nav-item">
+                <img src="book-open.png">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+              
+            <li class="nav-item">
+                <img src="news.png">
+                <a class="nav-link" href="#">News</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <section class="wrapper-profile-info">
+        <div class="info">
+            <img class="profile-pic" src="avatar.png" alt="">
+            <h4>Sophia Carter</h4>
+            <h5>sophiya</h5>
+            <h6>sophiya@hotmail.com</h6>
+
+        </div>
+        <div class="personal-info">
+            <h4>Personal Info</h4>
+            <section class="form-wrapper">
+                <form class="form-info" action="/submit" method="post">
+                    <input class="info-field" type="text" placeholder="Sophia">
+                    <input class="info-field" type="text" placeholder="Carter">
+                    <input class="info-field" type="text" placeholder="sophiya@hotmail.com">
+                    <input class="info-field" type="text" placeholder="+49666655557">
+                    <input class="info-field" type="text" placeholder="Blumenstraße 15, Wuppertal 42445">
+                    <input class="info-field" type="text" placeholder="Germany">
+
+                    <button type="submit" class="btn">Save Changes</button>
+                </form>
+            </section>
+        </div>
+    </section>
+</body>
+</html>

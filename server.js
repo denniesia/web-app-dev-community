@@ -32,6 +32,15 @@ app.post('/submit', (req, res) => {
     res.send('Form submitted successfully!');
 });
 
+app.get('/register', (req, res) => {
+    res.render('register');
+});
+
+app.get('/profile', (req, res) => {
+    res.render('profile');
+});
+
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

@@ -1,21 +1,24 @@
-html {
+body {
     background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     padding: 14rem;
-
 }
 
-.form {
-    justify-content: center;
+section.login-form {
     display: flex;
+    justify-content: center;
     padding-top: 10px;
 }
-
 form {
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
     border-radius: 15px;
     width: 30rem;
-    
+    height: 20rem;
+    padding-top: 10px;
 }
+
+
 h2 {
     color: #13FF90;
     font-weight: bold;
@@ -23,7 +26,6 @@ h2 {
     justify-items: center;
     text-align: center;
 }
-
 div.input-box {
     display: flex;
     justify-content: center;  /* Centers horizontally */
@@ -31,7 +33,7 @@ div.input-box {
 }
 input {
     display: block; 
-    width: 50%; 
+    width: 60%; 
     margin-bottom: 10px;
     height: 20px;
     border-radius: 3px;
@@ -41,57 +43,20 @@ input {
     text-indent: 0.3cm;
 }
 
-div.remember-forgot {
-    color: white;
-
-
-}
-
-input.checkbox {
-    width: 13px;
-    align-items: center;
-    margin-bottom: 3px;
-}
-
-label {
-    color: #b3ecb3;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    justify-content: center;
-
-    
-}
-
-div.forgot {
-    display: flex;
-    justify-content: center;
-
-}
-
-.forgot-link {
-    color: #b3ecb3;
-    text-decoration: none;
-}
-
-a.forgot-link:hover {
-    color: darkgreen;
-}
-
-.btn-submit {
+.btn-register {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-
 .btn {
     color: #03FF8C;
     font-weight: bold;
     background-color: transparent;
-    border:1px solid #8bf68b;
+    border: 1px solid #8bf68b;
     border-radius: 2px solid #00ff00 ;
-    padding: 10px 40px;
+    padding: 10px 60px;
+    border-radius: 6px;
     
 }
 
@@ -103,11 +68,11 @@ a.forgot-link:hover {
     color: black;
 
 }
-
-.register-link {
-    color: aliceblue;
+.login-link {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 7px;
 }
 
 p {
@@ -123,3 +88,6 @@ a:hover {
     cursor: pointer;
     color: darkgreen;
 }
+
+
+
